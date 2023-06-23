@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKS COMPANY SURVEY FORM</title>
+    <style>
+        body {
+            background-image:url("https://snv.shrm.org/sites/snv.shrm.org/files/sig.png");
+            background-repeat: no repeat;
+            background-position: center;
+            background-attachment: fixed;
+            background-size: 100%;
+        }
+        form {
+            background-color: white;
+            max-width:500px;
+            margin: 50px auto;
+            padding: 30px,20px;
+            box-shadow: 2px,5px,10px;
+        }
+        h1{
+            color: blue;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 220%;
+        }
+        .ayush
+        {
+            color: white;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+  <!-- survey form  -->
+  <form align = "center" action = "/submit.html">
+    <div Align = "center"></div>
+    <h1> AKS COMPANY SURVEY FORM</h1>
+    Enter your name
+    <input type = "text" name = "userName"size = 35 maxlength = 35 value = "" required placehoder= "eg:-abc"><br></br>
+    Enter your email
+    <input type = "email" name = "email" size = 35 maxlength = 35 value = "" required placehoder= "abc@gamil.com"><br></br>
+     Enter your Phone number 
+     <input type = "tel" name = "phno" value = "" required placehoder= "23******"> <br></br>
+     Enter your address
+     <input type = "text" name = "address" size = 40 maxlength = 40 value = "" required placeholder = "eg :-A-block******"><br></br>
+     Enter your bill number
+     <input type = "bill" name = "billno" size = 35 maxlength= 40 value = "" required placeholder = "A22******"><br></br>
+     Date of purchase
+     <input type = "Date" name = "Date" size = 35 maxlength = 35 value = "" required placeholder = "dd/mm/yyyy"><br></br>
+     Tell us a little about yourself<br>
+     <textarea name = "comments" cols = 30 rows = 4 required placeholder = "eg:- I have interest in ..."></textarea> <br></br>
+     What do you want ?
+     <input type = "radio" name="exe" value = 1>Replace
+     <input type = "radio" name = "exe" value = 2>Refund
+  </p>
+  Unsatisfactory product name 
+  <select name = "Product Name">
+    <option value = 1>LED
+        <option value = 2> Speaker
+            <option value = 3> SmartPhone
+                <option value = 4> Watch
+                    <option value = 5> Laptop
+                        <option value = 6> others
+
+    </option>
+  </select> 
+  <br></br>
+     </p>
+     The Specific details of Complaint <br>
+     <textarea type = "comments" cols = 30 rows = 4 required placeholder = " eg:- i have an issue..."></textarea> <br></br>
+     <input class="ayush" type = submit name = "Submit form">
+ </form>
+</body>
+</html>
